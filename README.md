@@ -1,5 +1,15 @@
-### RGCI Lung Cancer
-# Contains:
- 1.) Script for converting Diacom files to jpg images.
- 2.) Script for making JSON annotations from XML file.
- 3.) AIPS-N Model using Detectron2 
+# RGCI Lung Cancer
+This repository contains scripts and models for lung cancer nodule detection from CT scans, developed using the Detectron2 framework. The primary focus is on preprocessing and detecting nodules in lung CT images, with the use of the LIDC-IDRI dataset.
+
+## Contents:
+1.) **Script for Converting DICOM Files to JPG**
+This script converts raw DICOM files into 512x512 JPG images for easier visualization and model training.
+
+2.) **Script for Making JSON Annotations from XML**
+A script that parses XML files containing nodule annotations and converts them into JSON format, suitable for use with Detectron2.
+
+3.) **AIPS-N Model Using Detectron2**
+Implementation of an Automated Image Processing System for Nodules (AIPS-N), utilizing Detectron2 for detecting lung nodules based on bounding boxes.
+
+4.) **Script for Exploring the LIDC-IDRI Dataset (With and Without Windowing)**
+This script allows exploration of the LIDC-IDRI dataset, with the option to apply windowing techniques for enhancing lung-specific features in the images. Windowing is useful for improving the contrast of nodules against the background.
