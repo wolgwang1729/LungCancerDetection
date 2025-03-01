@@ -12,7 +12,7 @@ This script converts raw DICOM files into 512x512 JPG images for easier visualiz
 A script that parses XML files containing nodule annotations and converts them into JSON format, suitable for use with Detectron2.
 
 4.) **AIPS-N Model Using Detectron2**<br />
-Implementation of an Automated Image Processing System for Nodules (AIPS-N), utilizing Detectron2 for detecting lung nodules based on bounding boxes. (Not trained on the whole LIDC-IDRI yet)
+Implementation of an Automated Image Processing System for Nodules (AIPS-N), utilizing Detectron2 for detecting lung nodules based on bounding boxes.
 
 Google Drive Folder containing Dataset in .jpg format and Models : https://drive.google.com/drive/folders/1GUwyQHlrcm83dpVlTxQq1QFEGQf1wpfI?usp=drive_link
 
