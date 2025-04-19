@@ -1,6 +1,11 @@
 # LungCancerDetection
 This repository contains scripts and models for lung cancer nodule detection from CT scans, developed using the Detectron2 framework. The primary focus is on preprocessing and detecting nodules in lung CT images, with the use of the LIDC-IDRI dataset.
 
+ ## **NOTE:**  
+ * I have done work related to lung segmentation in the repository:  
+ * **https://github.com/wolgwang1729/LungSegmentation**
+ 
+
 ## Contents:
 1.) **Script for Exploring the LIDC-IDRI Dataset (With and Without Windowing)**<br />
 This script allows exploration of the LIDC-IDRI dataset, with the option to apply windowing techniques for enhancing lung-specific features in the images. Windowing is useful for improving the contrast of nodules against the background.
