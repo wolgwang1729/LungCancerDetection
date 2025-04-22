@@ -28,6 +28,37 @@ Implementation of an Automated Image Processing System for Nodules (Rad-5), util
 - **V2:**  
   An improved pipeline with targeted hyperparameter tuning, consistent input dimensions, mixed‑precision training for speed, larger batch sizes, extended GPU training.
 
+- **V3:**  
+  A further improved pipeline trained on segmented CT scans using the LungSegmentation model, focusing on lung regions; earlier versions were trained on unsegmented scans.
+
+## Metrics
+
+### Segmentation Model:
+
+- On **Validation** Set(Vessel 12):
+
+#### BBOX:
+| AP     | AP50   | AP75   | APs    | APm    | APl    |
+|--------|--------|--------|--------|--------|--------|
+| 83.5287| 87.5968| 83.6156| 2.6997 | 69.9006| 97.8596|
+
+#### SEGM:
+| AP     | AP50   | AP75   | APs    | APm    | APl    |
+|--------|--------|--------|--------|--------|--------|
+| 76.1599| 90.8345| 81.9858| 2.7424 | 56.7885| 89.7311|
+
+### Rad-5 Model(V3):
+
+- On **Validation** Set(LIDC-IDRI):
+
+#### AP50 BBOX scores:
+| Malignancy | Sphericity | Margin  | Spiculation | Texture  |
+|------------|------------|---------|-------------|----------|
+| 24.9661    | 24.3374    | 23.1560 | 23.2624    | 16.7609  |
+
+
+
+
 Google Drive Folder containing Dataset in .jpg format and Models : https://drive.google.com/drive/folders/1GUwyQHlrcm83dpVlTxQq1QFEGQf1wpfI?usp=drive_link
 
 
