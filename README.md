@@ -19,8 +19,8 @@ A script that parses XML files containing nodule annotations and converts them i
 4.) **Script for Segmenting LIDC-IDRI Images Using LungSegmentation Model**<br />
 This script utilizes the segmentation model from [LungSegmentation](https://github.com/wolgwang1729/LungSegmentation) to automatically segment lung regions in LIDC-IDRI CT images. The segmented masks can be used for preprocessing, focusing analysis on lung tissue, and improving downstream detection tasks.
 
-5.) **AIPS-N Model Using Detectron2**<br />
-Implementation of an Automated Image Processing System for Nodules (AIPS-N), utilizing Detectron2 for detecting lung nodules based on bounding boxes.
+5.) **Rad-5 Model Using Detectron2**<br />
+Implementation of an Automated Image Processing System for Nodules (Rad-5), utilizing Detectron2 for detecting lung nodules based on bounding boxes.
 
 - **V1:**  
   A beginner’s setup leveraging a standard Detectron2 Faster R‑CNN model with default settings and minimal hyperparameter adjustments.
