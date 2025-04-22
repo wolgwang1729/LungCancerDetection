@@ -58,7 +58,8 @@ Implementation of an Automated Image Processing System for Nodules (Rad-5), util
 
 
 
+## Supplementary Data
 
-Google Drive Folder containing Dataset in .jpg format and Models : https://drive.google.com/drive/folders/1GUwyQHlrcm83dpVlTxQq1QFEGQf1wpfI?usp=drive_link
+Google Drive Folder containing Dataset in .jpg format, segmented Dataset and Models : https://drive.google.com/drive/folders/1GUwyQHlrcm83dpVlTxQq1QFEGQf1wpfI?usp=drive_link
 
 
