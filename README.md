@@ -31,6 +31,14 @@ Implementation of an Automated Image Processing System for Nodules (Rad-5), util
 - **V3:**  
   A further improved pipeline trained on segmented CT scans using the LungSegmentation model, focusing on lung regions; earlier versions were trained on unsegmented scans.
 
+6.) **Notebook for Inference Pipeline**  
+   This Jupyter Notebook (`InferencePipeline.ipynb`) demonstrates the end‑to‑end inference workflow:  
+   - Loads a CT image  .
+   - Applies lung segmentation using the LungSegmentation model.
+   - Runs the Rad‑5 detector on the segmented region  
+   - Outputs predictions for five radiological features: malignancy, sphericity, margin, spiculation, and texture  .
+
+
 ## Metrics
 
 ### Segmentation Model:
