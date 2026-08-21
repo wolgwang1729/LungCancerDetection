@@ -38,7 +38,7 @@ Implementation of an Automated Image Processing System for Nodules (Rad-5), util
    - Runs the Rad‑5 detector on the segmented region  
    - Outputs predictions for five radiological features: malignancy, sphericity, margin, spiculation, and texture.
 
-![Model Workflow](https://i.sstatic.net/mLjNnZ1D.png)
+![Model Workflow](assets/model-workflow.png)
 
 ## Metrics
 
